@@ -4,11 +4,22 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flegmgui"
-version = "0.1.0"
+version = "0.1.1"
 description = "A small custom Python GUI library built directly on the Windows API."
 readme = "README.md"
 requires-python = ">=3.10"
-authors = [{ name = "Your Name" }]
+authors = [{ name = "ThatFlegm" }]
+license = { text = "MIT" }
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Developers",
+	"Operating System :: Microsoft :: Windows",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3 :: Only",
+	"Topic :: Software Development :: User Interfaces",
+]
+keywords = ["gui", "windows", "win32", "ctypes"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+include = ["flegmgui*"]

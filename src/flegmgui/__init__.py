@@ -3,4 +3,4 @@
 from .core import Button, CheckBox, Label, ProgressBar, Row, Separator, Window
 
 __all__ = ["Button", "CheckBox", "Label", "ProgressBar", "Row", "Separator", "Window"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
