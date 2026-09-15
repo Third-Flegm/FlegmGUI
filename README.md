@@ -19,6 +19,8 @@ from flegmgui import Window
 app = Window("My app")
 status = app.label("Ready")
 app.button("Click me", lambda: status.set("Clicked!"))
+enabled = app.checkbox("Enabled", lambda checked: status.set(str(checked)))
+progress = app.progress(50)
 app.run()
 ```
 
